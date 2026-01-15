@@ -1,3 +1,4 @@
+//Muestra el menú principal del programa
 #include "Menu.h"
 #include <iostream>
 
