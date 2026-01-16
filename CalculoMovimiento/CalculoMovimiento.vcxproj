@@ -128,10 +128,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CalculoMovimiento.cpp" />
+    <ClCompile Include="Distancia.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Tiempo.cpp" />
+    <ClCompile Include="Velocidad.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Distancia.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="Tiempo.h" />
+    <ClInclude Include="Velocidad.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

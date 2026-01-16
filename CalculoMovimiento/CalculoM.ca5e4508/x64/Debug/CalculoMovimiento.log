@@ -1,2 +1,7 @@
-﻿  Menu.cpp
+﻿  CalculoMovimiento.cpp
+  Distancia.cpp
+  Menu.cpp
+  Tiempo.cpp
+  Velocidad.cpp
+  Generando código...
   CalculoMovimiento.vcxproj -> C:\Users\danie\source\repos\calculo-movimiento-cpp\CalculoMovimiento\x64\Debug\CalculoMovimiento.exe
