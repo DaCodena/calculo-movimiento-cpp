@@ -4,4 +4,4 @@ class Tiempo {
 public:
     double calcularTiempo(double distancia, double velocidad);
 };
-#endif#
+#endif

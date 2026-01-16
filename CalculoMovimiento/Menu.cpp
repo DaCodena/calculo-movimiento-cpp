@@ -2,6 +2,7 @@
 #include "Menu.h"
 #include "Distancia.h"
 #include "Velocidad.h"
+#include "Tiempo.h"
 
 #include <iostream>
 
@@ -32,10 +33,18 @@ void Menu::mostrarMenu() {
                 << d.calcular(velocidad, tiempo) << "\n";
             break;
         }
-        case 2:
-            std::cout << "Calculo de tiempo (pendiente)\n";
-            break;
+        case 2: {
+            double distancia, velocidad;
+            std::cout << "Ingrese la distancia: ";
+            std::cin >> distancia;
+            std::cout << "Ingrese la velocidad: ";
+            std::cin >> velocidad;
 
+            Tiempo t;
+            std::cout << "Tiempo = "
+                << t.calcularTiempo(distancia, velocidad) << "\n";
+            break;
+        }
         case 3: {
             double distancia, tiempo;
             std::cout << "Ingrese la distancia: ";
