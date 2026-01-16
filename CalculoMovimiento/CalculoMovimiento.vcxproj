@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="CalculoMovimiento.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tiempo.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
