@@ -3,5 +3,8 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Folder Name="/Elementos de la solución/">
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="CalculoMovimiento.vcxproj" Id="ca5e4508-73a2-4124-99b0-d76ec11cf6d4" />
 </Solution>

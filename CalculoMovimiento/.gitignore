@@ -1,0 +1,15 @@
+# Visual Studio
+.vs/
+
+# Build folders
+x64/
+Debug/
+Release/
+
+# Temporary build files
+*.pdb
+*.obj
+*.exe
+*.log
+*.tlog
+*.lastbuildstate
